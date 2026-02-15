@@ -1,0 +1,73 @@
+# ----------------------------
+# Python
+# ----------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyd
+*.pyo
+
+# Virtual environment
+venv/
+.env/
+.venv/
+
+# ----------------------------
+# Environment variables / secrets
+# ----------------------------
+.env
+.env.*
+*.key
+*.pem
+
+# ----------------------------
+# Database files
+# ----------------------------
+*.db
+*.sqlite3
+
+# ----------------------------
+# Logs & generated data
+# ----------------------------
+logs/generated_*
+*.log
+
+# ----------------------------
+# OS / Editor junk
+# ----------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# VS Code
+.vscode/
+
+# JetBrains
+.idea/
+
+# ----------------------------
+# Node / frontend (future React)
+# ----------------------------
+node_modules/
+dist/
+build/
+
+# ----------------------------
+# Docker (optional ignore)
+# ----------------------------
+*.tar
+docker-data/
+
+# ----------------------------
+# Test / coverage
+# ----------------------------
+.coverage
+htmlcov/
+.pytest_cache/
+
+# ----------------------------
+# Misc
+# ----------------------------
+*.swp
+*.tmp
